@@ -1,4 +1,4 @@
-# Postcodes technical task
+# Postcodes validator and importer
 
 ## Installing prerequisites
 
@@ -15,6 +15,6 @@ This solution also expects to find `import_data.csv` in its root directory.
 
 ## Notes
 
-Some time was spent finding a means of enabling V8’s young implementation of lookbehind assertions in Node.js (see http://v8project.blogspot.co.uk/2016/02/regexp-lookbehind-assertions.html).
+Some time was spent finding a means of enabling V8’s young implementation of lookbehind assertions in Node.js (see node-lookbehind.js and http://v8project.blogspot.co.uk/2016/02/regexp-lookbehind-assertions.html).
 
-I was not able to complete Part 3 (performance engineering) in the time available. I would have liked to investigate the use of workers to spread the analysis work over multiple threads.
+For performance gains I would like to investigate the use of workers to spread the analysis work over multiple threads.
